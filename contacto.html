@@ -1,0 +1,89 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+  
+  </head>
+
+
+<body>  
+
+<!-- Inicio -->
+<a href= "C:\Users\ANGEL MEDINA CORVERA\Desktop\pag.equipo\PAG.html">
+  
+   <AREA SHAPE="rect" COORDS="1,1,75,46" HREF="indice.htm">
+   <AREA SHAPE="rect" COORDS="76,1,136,46" HREF="intro.htm">
+</MAP>
+
+<IMG HSPACE="20" VSPACE="05"SRC="C:\Users\ANGEL MEDINA CORVERA\Desktop\pag.equipo\img\LogoJaca.png" align="left" USEMAP="telefonos" width="110" height="90" HSPACE="30" VSPACE="10"><br><br><br><br><br>
+</a> 
+ 
+  <!-- formulario de contacto -->  
+  <center><div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+          <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefono" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <!--<p>
+                  <label for="website" class="colocar_website">Sitio web
+                  </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p> -->    
+              
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+					<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+				</p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>      
+
+			<div class="social">
+		<a href="https://es-la.facebook.com/"><img src="img/Fop2.png" alt="Facebook"width="50" height="50"></a>
+		<a href="https://twitter.com/?lang=es"><img src="img/Top3.png" alt="Twitter"width="50" height="50"></a>
+		<a href="https://www.instagram.com/"><img src="img/Iop1.jpg" alt="Instagram"width="50" height="50"></a>
+			</div>
+            
+          </form></center>
+    </div>  
+  </div>
+
+</body>
+</html>
